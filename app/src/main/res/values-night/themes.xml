@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Dark.Theme.PantryManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.PantryManager" parent="Dark.Theme.PantryManager" />
+
+    <style name="LoginBackground" parent="Theme.PantryManager">
+        <item name="android:background">@color/darkemerald</item>
+    </style>
+
+    <style name="LogoBig" parent="Theme.PantryManager">
+        <item name="android:src">@drawable/logobigdark</item>
+    </style>
+
+    <style name="GreenButton" parent="Theme.PantryManager">
+        <item name="android:backgroundTint">@color/tiffblue</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="fontFamily">@font/librefranklin_medium</item>
+    </style>
+
+    <style name="TextTop" parent="Theme.PantryManager">
+        <item name="android:textColor">@color/yellowgreen</item>
+        <item name="android:textSize">45dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/librefranklin_semibold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="TextLabel" parent="Theme.PantryManager">
+        <item name="android:textColor">@color/tiffblue</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/librefranklin_medium</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+
+    <style name="ButtonTwo" parent="Theme.PantryManager">
+        <item name="android:backgroundTint">@color/yellowgreen</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="fontFamily">@font/librefranklin_medium</item>
+    </style>
+
+    <style name="TextBox" parent="Theme.PantryManager">
+        <item name="android:textColor">@color/darkdarkgreen</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/librefranklin_medium</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/lightyellow</item>
+    </style>
+
+    <style name="ToolBar" parent="Theme.PantryManager">
+        <item name="android:backgroundTint">@color/darkemerald</item>
+    </style>
+
+    <style name="ToolBarFake" parent="Theme.PantryManager">
+        <item name="android:fontFamily">@font/librefranklin_semibold</item>
+        <item name="android:textColor">@color/yellowgreen</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="ListBottomBox" parent="Theme.PantryManager">
+        <item name="android:background">@color/darkemerald</item>
+    </style>
+
+    <style name="ListBackground" parent="Theme.PantryManager">
+        <item name="android:background">@color/darkdarkgreen</item>
+    </style>
+
+    <style name="Divider" parent="Theme.PantryManager">
+        <item name="android:divider">#98A468</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="AddItemText" parent="Theme.PantryManager">
+        <item name="android:textColor">@color/yellowgreen</item>
+    </style>
+
+    <style name="HomeIcon" parent="Theme.PantryManager">
+        <item name="android:background">@drawable/home_icon_dark</item>
+    </style>
+
+    <style name="GroceryIcon" parent="Theme.PantryManager">
+        <item name="android:background">@drawable/grocery_icon_dark</item>
+    </style>
+
+    <style name="PantryIcon" parent="Theme.PantryManager">
+        <item name="android:background">@drawable/pantry_icon_dark</item>
+    </style>
+
+</resources>

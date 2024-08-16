@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/LoginBackground">
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="200dp"
+        style="@style/LogoBig"
+        android:id="@+id/logobig"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@+id/logobig"
+        android:text="register"
+        android:id="@+id/registertext"
+        style="@style/TextTop"/>
+
+    <TextView
+        android:layout_below="@+id/registertext"
+        android:text="email"
+        android:id="@+id/emailtext"
+        style="@style/TextLabel"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_below="@+id/emailtext"
+        style="@style/TextBox"
+        />
+
+    <TextView
+        android:layout_below="@+id/username"
+        android:text="password"
+        android:id="@+id/passwordtext"
+
+        style="@style/TextLabel"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/passwordtext"
+        style="@style/TextBox"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_below="@+id/password"
+        android:text="register"
+        android:layout_marginTop="50dp"
+        style="@style/GreenButton"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:text="login"
+        android:layout_below="@+id/register"
+        style="@style/ButtonTwo"
+        android:textSize="20dp"
+        android:layout_height="50dp"
+        android:layout_width="140dp"
+    />
+
+
+</RelativeLayout>

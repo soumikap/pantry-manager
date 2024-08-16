@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/LoginBackground">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="logout"
+        style="@style/GreenButton"
+        android:layout_marginTop="100dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/light_dark"
+        android:text="switch mode"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        android:background="@drawable/light_button"
+        android:layout_below="@+id/logout"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:text="exit settings"
+        style="@style/GreenButton"
+        android:layout_marginTop="60dp"
+
+        android:layout_below="@+id/light_dark"
+        />
+
+</RelativeLayout>

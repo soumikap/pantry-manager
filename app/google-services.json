@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473510089864",
+    "project_id": "pantry-manager-a49b0",
+    "storage_bucket": "pantry-manager-a49b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473510089864:android:a83a31706c7c513c39bb3d",
+        "android_client_info": {
+          "package_name": "com.example.pantrymanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnpXnbBwyscRvFaSS6-_HVRLb_7eQiisA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

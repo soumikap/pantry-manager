@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tiffblue">#ADE0D4</color>
+    <color name="emerald">#256052</color>
+    <color name="yellowgreen">#DFF197</color>
+    <color name="green">#566322</color>
+    <color name="lightyellow">#F7FFEC</color>
+    <color name="mediumyellow">#F2FAD3</color>
+
+    <color name="darkemerald">#0D2E27</color>
+    <color name="darkdarkgreen">#011710</color>
+</resources>
